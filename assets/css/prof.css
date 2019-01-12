@@ -1,0 +1,151 @@
+body{
+	margin: 0;
+}
+.container{
+
+}
+.head{
+	top: 0%;
+	position: fixed;
+	background: black;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+.head > li:first-of-type {
+	z-index: +1;
+	font-size: 140%;
+	color: red;
+	list-style: none;
+	float: left;
+	background: black;
+	padding: 0.8% 10% 0.3% 10%;
+	margin-right: 70px;
+}
+.head > li{
+	justify-content:flex-end;
+	float: right;
+	z-index: +1;
+	list-style: none;
+	float: left;
+	color: white;
+	background: black;
+	padding: 1.1% 0.5% 0% 0.5%;
+	height: 35px;
+}
+.img1{
+	position: absolute;
+	z-index: -1;
+	height: 350px;
+	width: 100%;
+}
+.int > h1{
+	text-align: center;
+	font-size: 300%;
+	padding: 6% 10% 0% 10%; 
+}
+.int > h1 > span{
+	color: red;
+}
+.int > h3{
+	font-size: 140%;
+	text-align: center;
+}
+.int > li{list-style: none;
+		text-align: center;
+		padding: 0% 1% 8% 1%;
+}
+.int > li > button{	
+	height: 35px;
+	width: 120px;
+	border: 1px solid blue;
+	border-radius: 20px;
+	background: blue;
+}
+.int > li > button > a{
+	color: white;
+	text-decoration: none;	
+	font-size: 110%;
+}
+.about{
+	padding: 5%;
+}
+.about > img{
+	padding: 0% 4% 10% 5%;
+	height: 300px;
+	width: 20%;
+	float: left;
+}
+.skil{
+	padding: 0% 8% 5% 10%;
+}
+.skil > h2{
+	color: blue;
+	padding: 0%;
+}
+.skil > div > li{
+	margin: 2px;
+	padding: 0%;
+	list-style: none;
+	height: 0px;
+	width: 0%;
+	background: blue;
+}
+.edu > h2{
+	color: blue;
+}
+.edu{
+	padding: 0% 8% 10% 10%;
+}
+.edu > div > img{	
+	height: 300px;
+	width: 100%;
+}
+.edu > div {
+	margin: 0.2%;
+	height: 10%;
+	width: 32%;
+	background: red;
+	float: left;
+}
+.edu > div >li{
+	color: white;
+	list-style: none;
+	text-align: center;
+	padding: 3% 0% 3% 0%;	
+	background: black;
+}
+.exp{
+	float: none;
+	padding: 5% 8% 2% 10%;
+}
+.exp > h2{
+	color: blue;
+}
+.proj{
+	float: none;
+	padding: 3% 8% 2% 10%;
+}
+.proj > li{
+	list-style: none;
+}
+.proj > h2{
+	color: blue;
+}
+.con{
+	float: none;
+	padding: 3% 8% 2% 10%;
+}
+.con > h2{
+	color: blue;
+}
+.con > li{
+	list-style: none;
+}
+.con > l > a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
